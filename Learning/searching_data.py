@@ -31,7 +31,7 @@ phone3 = "00341-459-324-234"
 print(phone1[5:])
 print(phone2[4:])
 print(phone1.find("-"))
-# nest find for easier execution
+# nest find for easier execution find is great when combined with other methods 
 print(phone1[phone1.find("-")+ 1:]) #find the first dash and then find the second dash
 print(phone2[phone2.find("-")+ 1:])
 print(phone3[phone3.find("-")+ 1:])
